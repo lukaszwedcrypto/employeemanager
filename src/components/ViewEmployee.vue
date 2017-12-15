@@ -15,12 +15,12 @@
         <router-link v-bind:to="{name: 'edit-employee', params: {employee_id: employee_id}}" class="btn-floating btn-large red">
           <i class="fa fa-pencil"></i>
         </router-link>
-      </div>      
+      </div>
   </div>
 </template>
 
 <script>
-  import db from './firebaseInit.js'
+  import db from './firebaseInit'
   export default {
     name: 'view-employee',
     data() {
